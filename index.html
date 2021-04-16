@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
 
     <title> Página inicial </title>
 </head>
 <body>
+
     <main>
     <article class="postagem-instagram">
         <header class="caixa-usuario">
@@ -21,25 +22,27 @@
             </header>
 
             <section class="post">
-                <img src="/img/publicacao.jpg" alt="imagem postada pelo user" class="publicacao">
+                <div class="img-principal" title="foto postada pelo user" style="background-image: url('/img/publicacao.jpg');"></div>
             </section>
 
             <section class="comentarios-publicacao">
                 <div class="caixa-texto-publicacao">
                     <p class="texto-publicacao">Partiu férias!</p>
+                    <div class="curtidas">
                     <img src="/img/icons/heart.svg" alt="botão de like" class="like">
                     <p class="like"> 400 curtidas </p>
+                    </div>
                     <p class="data">Postado no dia: 16/04/2020</p>
                 </div>
                 
                 <div class="secao-comentarios">
-                    <p class="comentario"> <strong>1</strong> obaa</p>
-                    <p class="comentario"> <strong>2</strong> boa viageeem!!!</p>
-                    <p class="comentario"> <strong>3</strong> tudoooo</p>
+                    <p class="comentario"> <strong> realbatman </strong> obaa</p>
+                    <p class="comentario"> <strong> tytrack </strong> boa viageeem!!!</p>
+                    <p class="comentario"> <strong> sonic </strong> tudoooo</p>
                 </div>
 
             </section>
-
+            <hr style="height:1px;border-width:0;color:gray;background-color:#ccc">
             <footer class="comentar">
                 <input type="text" name="comenta" id="comenta" placeholder="Adicione um comentário..." class="input-coment">
                 <button type="submit" class="publicar"> Publicar </button>
